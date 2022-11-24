@@ -1,4 +1,4 @@
-import React from "react";
+    import React from "react";
 import {VehicleType, vehicleTypes, vehicleTypeTitles} from "../data/vehicles/contracts";
 import {Select} from "@skbkontur/react-ui";
 

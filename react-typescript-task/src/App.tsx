@@ -4,6 +4,7 @@ import { VehicleApi } from "./data/vehicles/api";
 import { Filter } from "./components/Filter";
 import { Table } from "./components/Table";
 
+
 const initialFilter: VehicleFilter = {
     title: "",
     type: null
@@ -19,7 +20,7 @@ export default function App() {
 
     return (
         <>
-            <Filter />
+            <Filter setVehicles={setVehicles}/>
             <Table vehicles={vehicles} />
         </>
     );
